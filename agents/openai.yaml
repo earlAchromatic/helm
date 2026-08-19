@@ -1,0 +1,9 @@
+interface:
+  display_name: "HELM"
+  short_description: "Address and publish Reviewable feedback"
+  default_prompt: "Use $helm to inspect Reviewable feedback, implement and verify the response, and deliver authorized replies through Reviewable's publish-on-push flow with any approved push."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "helm-author"
+      description: "HELM Reviewable MCP server for feedback, replies, dispositions, and publication"
