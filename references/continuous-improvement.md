@@ -53,7 +53,7 @@ When the user has explicitly authorized HELM maintenance:
 1. Use `earlAchromatic/helm` as the canonical source. Never treat the installed skill link as an independently editable copy.
 2. Start from the latest `origin/main` in a separate branch or worktree. Never add the improvement to the pull-request branch being addressed.
 3. Implement the smallest eligible change and keep conditional detail in a reference rather than bloating `SKILL.md`.
-4. Keep `agents/openai.yaml` aligned with the skill and preserve the `helm-author` MCP dependency.
+4. Keep `agents/openai.yaml` aligned with the skill and preserve the production `Helm` MCP dependency.
 5. Run the official skill validator and `git diff --check`.
 6. Forward-test behaviorally risky or substantial guidance changes with realistic raw artifacts and without leaking the expected result.
 7. Commit and open a separate pull request using the active GitHub and repository instructions.

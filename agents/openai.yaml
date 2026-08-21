@@ -5,5 +5,5 @@ interface:
 dependencies:
   tools:
     - type: "mcp"
-      value: "helm-author"
-      description: "HELM Reviewable MCP server for feedback, replies, dispositions, and publication"
+      value: "Helm"
+      description: "Production HELM Reviewable MCP server for feedback, replies, dispositions, and publication"
